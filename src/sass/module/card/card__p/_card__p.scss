@@ -3,10 +3,10 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
-.card__inner {
-  min-width: rem(375);
-  width: 100%;
-  background-color: #fff;
+.card__p {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: rem(16);
+  font-weight: $regular;
   color: #333;
 
   @include mq(md) {

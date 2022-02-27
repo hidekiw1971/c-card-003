@@ -194,4 +194,64 @@ select::-ms-expand {
   background-color: #111;
   color: #fff;
 }
+
+.card__mdfy {
+  min-width: 375px;
+  min-width: 23.4375rem;
+  width: 100%;
+  -webkit-box-shadow: 10px 5px 5px #333;
+          box-shadow: 10px 5px 5px #333;
+}
+@media screen and (min-width: 1440px) {
+  .card__mdfy {
+    max-width: 34.8125rem;
+    width: 100%;
+  }
+}
+
+.card__h2--mdfy {
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  line-height: 1;
+}
+.card__h2 {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+}
+.card__inner {
+  min-width: 375px;
+  min-width: 23.4375rem;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+}
+.card__more--mdfy {
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  line-height: 1;
+}
+.card__more {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  border: 1px solid #333;
+  text-align: center;
+}
+.card__p--mdfy {
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  line-height: 1;
+}
+
+.card__p {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+}
 /*# sourceMappingURL=styles.css.map */

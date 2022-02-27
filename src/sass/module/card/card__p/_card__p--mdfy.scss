@@ -3,12 +3,7 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
-.card__more--mdfy {
+.card__p--mdfy {
   letter-spacing: rem(0);
   line-height: 1;
-
-  @include mq(md) {
-  }
-  @include mq(xl) {
-  }
 }
