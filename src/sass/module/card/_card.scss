@@ -5,6 +5,9 @@
 
 .card {
   @include mq(md) {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
   }
   @include mq(xl) {
   }

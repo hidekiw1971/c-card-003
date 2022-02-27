@@ -8,5 +8,8 @@
   }
 
   @include mq(xl) {
+    position: absolute;
+    max-width: rem(557);
+    width: 100%;
   }
 }

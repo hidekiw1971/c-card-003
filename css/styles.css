@@ -204,11 +204,21 @@ select::-ms-expand {
 }
 @media screen and (min-width: 1440px) {
   .card__mdfy {
-    max-width: 34.8125rem;
+    max-width: 74.375rem;
     width: 100%;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .card__h2--mdfy {
   letter-spacing: 0px;
   letter-spacing: 0rem;
@@ -221,13 +231,34 @@ select::-ms-expand {
   font-weight: 700;
   color: #333;
 }
+@media screen and (min-width: 1440px) {
+  .card__img--mdfy {
+    position: absolute;
+    max-width: 34.8125rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__inner--mdfy {
+    padding: 10rem 0;
+  }
+}
+
 .card__inner {
-  min-width: 375px;
-  min-width: 23.4375rem;
+  max-width: 375px;
+  max-width: 23.4375rem;
   width: 100%;
   background-color: #fff;
   color: #333;
 }
+@media screen and (min-width: 1440px) {
+  .card__inner {
+    max-width: 56rem;
+    width: 100%;
+  }
+}
+
 .card__more--mdfy {
   letter-spacing: 0px;
   letter-spacing: 0rem;
@@ -253,5 +284,16 @@ select::-ms-expand {
   font-size: 1rem;
   font-weight: 300;
   color: #333;
+}
+.card__photo-frame {
+  max-width: 375px;
+  max-width: 23.4375rem;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .card__photo-frame {
+    max-width: 34.8125rem;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
