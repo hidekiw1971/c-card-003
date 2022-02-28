@@ -5,10 +5,17 @@
 
 .card__img--mdfy {
   @include mq(md) {
+    position: absolute;
+    top: 0.7rem;
+    right: 33rem;
+    max-width: rem(557);
+    width: 100%;
   }
 
   @include mq(xl) {
     position: absolute;
+    top: 5.375rem;
+    right: 39rem;
     max-width: rem(557);
     width: 100%;
   }

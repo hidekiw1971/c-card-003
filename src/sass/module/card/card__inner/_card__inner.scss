@@ -10,6 +10,8 @@
   color: #333;
 
   @include mq(md) {
+    max-width: rem(768);
+    width: 100%;
   }
   @include mq(xl) {
     // max-width: rem(896);

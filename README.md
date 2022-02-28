@@ -1,14 +1,14 @@
 # module（共通部品）
 
-## 標準ボタン
+## カード（スライダー付）
 
-- ｘｘｘ
+- カード（すライダー付）を作成中。
 
 ## イメージ画像
 
 ## portfolio url:
 
-- https://css-md-000x.wtb.cfbx.jp/
+- https://css-md-0012.wtb.cfbx.jp/
 
 ## module(共通部品)使い方
 
@@ -26,11 +26,11 @@
 -
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> card をコピペ。
 
 ## 更新履歴
 
-- 20yy/mm/dd 初版 ｘｘｘ
+- 2022/2/28 初版 一応、sp、tb、pc できたが、中央寄せが必要。改修中。
 
 ## 環境・使い方
 
