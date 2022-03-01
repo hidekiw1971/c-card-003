@@ -3,11 +3,10 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
-.card__more--mdfy {
-  letter-spacing: rem(0);
-  line-height: 1;
-
+.card__wrap {
   @include mq(md) {
+    position: relative;
+    display: flex;
   }
   @include mq(xl) {
   }
