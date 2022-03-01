@@ -3,6 +3,7 @@
 ## カード（スライダー付）
 
 - 親（card）の中に、子（card**wrap、card**photo_frame）を入れ子したタイプ。
+- 子（card__photo_frame）はposition: absolute;で位置調整。
 - スライダーはまだ未実装。
 
 ## イメージ画像
