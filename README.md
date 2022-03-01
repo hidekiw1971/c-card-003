@@ -5,6 +5,7 @@
 - 親（card）の中に、子（card**wrap、card**photo_frame）を入れ子したタイプ。
 - 子（card__photo_frame）はposition: absolute;で位置調整。
 - スライダーはまだ未実装。
+- positionを使ってるので、擬似要素での実現に変更。やり直し。
 
 ## イメージ画像
 
@@ -17,14 +18,14 @@
 -
 -
 
-## 特徴
+## 注意事項
+- positionは使い方を間違えると表示崩れの原因にもなるので、あくまでも最終手段として使うようにした方が良い！
+- 
 
--
--
 
 ## 参考にしたサイト
-
--
+- 擬似要素を使って画像と背景色を重ねる方法
+- https://engineer.syutokoike.com/blog/css/128/
 -
 
 - 「copy start」から「copy end」をコピペ。
