@@ -3,14 +3,10 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
+// 全体を囲むboxには絶対にmarginは当てない事。コンポーネントとして使えなくなる為。
 .card {
-  max-width: rem(375);
-  width: 100%;
   @include mq(md) {
-    max-width: rem(1280);
-    width: 100%;
   }
   @include mq(xl) {
-    margin: 0 0 0 auto;
   }
 }

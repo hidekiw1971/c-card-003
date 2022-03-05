@@ -3,10 +3,9 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
-.card__wrap {
+.card__content {
+  text-align: center;
   @include mq(md) {
-    position: relative;
-    display: flex;
   }
   @include mq(xl) {
   }

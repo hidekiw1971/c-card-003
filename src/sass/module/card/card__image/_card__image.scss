@@ -3,8 +3,10 @@
 // tb size 768px -> md
 // pc size 1440px -> pc
 
-.card__img {
+.card__image {
   @include mq(md) {
+    margin-right: 2%;
+    padding: 5% 0;
   }
   @include mq(xl) {
   }

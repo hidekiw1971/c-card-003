@@ -173,84 +173,87 @@ select::-ms-expand {
   display: none;
 }
 
-.card {
-  max-width: 375px;
-  max-width: 23.4375rem;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .card {
-    max-width: 80rem;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .card {
-    margin: 0 0 0 auto;
-  }
-}
-
-.card__h2 {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  font-size: 20px;
-  font-size: 1.25rem;
+.btn {
+  display: inline-block;
+  font-family: "Noto Sans JP";
+  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 700;
-  color: #fff;
   letter-spacing: 0px;
   letter-spacing: 0rem;
   line-height: 1;
-}
-.card__inner {
-  background-color: #333;
-}
-@media screen and (min-width: 768px) {
-  .card__inner {
-    padding: 15% 1% 15% 23%;
-    margin-left: 30%;
-  }
-}
-.card__more {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: 300;
   color: #fff;
+  cursor: pointer;
   border: 1px solid #fff;
-  text-align: center;
-  letter-spacing: 0px;
-  letter-spacing: 0rem;
-  line-height: 1;
-}
-.card__p {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  font-weight: 300;
-  color: #fff;
-  letter-spacing: 0px;
-  letter-spacing: 0rem;
-  line-height: 1;
-}
-.card__photo_frame {
-  max-width: 375px;
-  max-width: 23.4375rem;
-  width: 100%;
+  padding: 5px 50px;
+  padding: 0.3125rem 3.125rem;
 }
 @media screen and (min-width: 768px) {
-  .card__photo_frame {
-    max-width: 34.8125rem;
-    width: 100%;
-    position: absolute;
-    top: 10%;
-    left: 1%;
+  .btn {
+    display: inline-block;
+    font-family: "Noto Sans JP";
+    font-size: 1.5625rem;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    line-height: 1;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 0.3125rem 3.125rem;
   }
 }
+.card__content {
+  text-align: center;
+}
+.card__contents {
+  background-color: #333;
+  color: #fff;
+  padding-bottom: 5px;
+  padding-bottom: 0.3125rem;
+}
 @media screen and (min-width: 768px) {
-  .card__wrap {
-    position: relative;
+  .card__contents {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, color-stop(25%, transparent), color-stop(0%, transparent), color-stop(0%, #333), color-stop(0%, #333));
+    background: linear-gradient(90deg, transparent 25%, transparent 0%, #333 0%, #333 0%);
+    padding-right: 0.625rem;
+    padding-bottom: 0rem;
   }
+}
+@media screen and (min-width: 768px) {
+  .card__image {
+    margin-right: 2%;
+    padding: 5% 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card__inner {
+    padding: 0rem 0.625rem;
+  }
+}
+.card__message {
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  line-height: 1;
+}
+.card__title {
+  font-family: "Noto Sans JP";
+  font-size: 25px;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  line-height: 1;
 }
 /*# sourceMappingURL=styles.css.map */

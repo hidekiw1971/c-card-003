@@ -1,0 +1,32 @@
+@use "global" as *;
+// sp size 375px -> sp
+// tb size 768px -> md
+// pc size 1440px -> pc
+
+.card__contents {
+  background-color: #333;
+  color: #fff;
+  // layout
+  padding-bottom: rem(5);
+  @include mq(md) {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      // ２色の色をどの角度で分けるかを指定。90度なので縦割り。
+      transparent 25%,
+      // 左からの透明をどれだけ占有するかを指定。
+      transparent 0%,
+      // 左からのグラデーションの指定。0%はグラデーションなし。
+      #333 0%,
+      // 右からの色をどれだけ占有するかを指定。
+      #333 0% // 右からのグラデーションの指定。0%はグラデーションなし。
+    );
+    // layout
+    padding-right: rem(10);
+    padding-bottom: rem(0); // sp size paddin-bottom打消
+  }
+  @include mq(xl) {
+  }
+}
