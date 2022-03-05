@@ -11,7 +11,7 @@
 
 - https://css-md-0012.wtb.cfbx.jp/
 
-## module(共通部品)使い方
+## compornent(共通部品)使い方
 
 -
 -
